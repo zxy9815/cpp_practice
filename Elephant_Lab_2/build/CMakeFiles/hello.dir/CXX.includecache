@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../header/elephant.h
+iostream
+-
+fridge.h
+../header/fridge.h
+
+../header/fridge.h
+iostream
+-
+
+/Users/pengxu/projects/cpp-foundation/Elephant_Lab_2/src/elephant.cpp
+elephant.h
+/Users/pengxu/projects/cpp-foundation/Elephant_Lab_2/src/elephant.h
+
+/Users/pengxu/projects/cpp-foundation/Elephant_Lab_2/src/fridge.cpp
+fridge.h
+/Users/pengxu/projects/cpp-foundation/Elephant_Lab_2/src/fridge.h
+
+/Users/pengxu/projects/cpp-foundation/Elephant_Lab_2/src/main.cpp
+elephant.h
+/Users/pengxu/projects/cpp-foundation/Elephant_Lab_2/src/elephant.h
+fridge.h
+/Users/pengxu/projects/cpp-foundation/Elephant_Lab_2/src/fridge.h
+
