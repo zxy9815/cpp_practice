@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # C++ Practice
 
 ## 1. Datatype
@@ -39,3 +40,6 @@ Datatype_Lab
 
 - new & delete: dynamic_memory.cpp
 - smart_pointers: smart_pointers.cpp
+=======
+# cpp_practice
+>>>>>>> aa6b6b3b4debac7fc6c7b8332f319b7c62c4e37d
